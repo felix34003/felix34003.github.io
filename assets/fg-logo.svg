@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1448" height="1086" viewBox="50 85 1310 790" role="img" aria-labelledby="logoTitle logoDesc">
+<title id="logoTitle">FG sine-wave personal monogram</title>
+<desc id="logoDesc">A geometric capital F and flowing sine-wave above an open capital G, with white-to-mint gradients. Separate editable SVG paths.</desc>
+<defs>
+  <!-- PRIMARY WHITE: used for bright parts of the F and upper G. -->
+  <!-- ACCENT MINT: used for the wave rise, G bowl and F foot. -->
+  <!-- Colors are literal SVG stop-color values for maximum compatibility. -->
+  <linearGradient id="f-stem" x1="205" y1="130" x2="205" y2="714" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#F2F5F0"/>
+    <stop offset="0.68" stop-color="#F2F5F0"/>
+    <stop offset="1" stop-color="#82C9A3"/>
+  </linearGradient>
+  <linearGradient id="f-top" x1="213" y1="155" x2="700" y2="155" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#F2F5F0"/>
+    <stop offset="0.76" stop-color="#F2F5F0"/>
+    <stop offset="0.89" stop-color="#E3F1E8" stop-opacity=".90"/>
+    <stop offset="1" stop-color="#E3F1E8" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="f-middle" x1="210" y1="451" x2="470" y2="451" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#F2F5F0"/>
+    <stop offset="0.69" stop-color="#F2F5F0"/>
+    <stop offset="1" stop-color="#F2F5F0" stop-opacity="0"/>
+  </linearGradient>
+  <!-- One continuous wave: horizontal color gradient also fades both free ends. -->
+  <linearGradient id="sine-wave" x1="77" y1="0" x2="1257" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#296F4E" stop-opacity="0" />
+    <stop offset=".10" stop-color="#296F4E" stop-opacity=".80" />
+    <stop offset=".23" stop-color="#82C9A3" />
+    <stop offset=".51" stop-color="#82C9A3" />
+    <stop offset=".73" stop-color="#D5EFDF" />
+    <stop offset=".85" stop-color="#F2F5F0" />
+    <stop offset=".92" stop-color="#F2F5F0" stop-opacity=".98" />
+    <stop offset="1" stop-color="#CDEAD9" stop-opacity="0" />
+  </linearGradient>
+  <!-- One uninterrupted G bowl: lowered starting tip fades by 0–12% of gradient. -->
+  <linearGradient id="g-bowl" x1="650" y1="523" x2="1190" y2="785" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#F2F5F0" stop-opacity="0" />
+    <stop offset=".05" stop-color="#F2F5F0" stop-opacity=".02" />
+    <stop offset=".12" stop-color="#F2F5F0" stop-opacity="1" />
+    <stop offset=".45" stop-color="#F2F5F0" />
+    <stop offset=".68" stop-color="#D5EFDF" />
+    <stop offset=".91" stop-color="#82C9A3" />
+    <stop offset="1" stop-color="#82C9A3" />
+  </linearGradient>
+  <linearGradient id="g-crossbar" x1="964" y1="485" x2="1335" y2="485" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#F2F5F0" stop-opacity="0"/>
+    <stop offset=".14" stop-color="#F2F5F0"/>
+    <stop offset=".30" stop-color="#F2F5F0"/>
+    <stop offset=".69" stop-color="#BDE4CE"/>
+    <stop offset="1" stop-color="#82C9A3"/>
+  </linearGradient>
+</defs><g id="fg-logo-art"><g id="letter-F" fill="none" stroke-linecap="butt" stroke-linejoin="miter">
+    <path id="F-vertical" d="M 205.5 157 L 205.5 710" stroke="url(#f-stem)" stroke-width="40" />
+    <path id="F-upper-bar" d="M 185.5 157 L 700 157" stroke="url(#f-top)" stroke-width="40" />
+    <path id="F-middle-bar" d="M 204 453 L 468 453" stroke="url(#f-middle)" stroke-width="37" />
+</g><g id="signal-wave" fill="none" stroke-width="40" stroke-linecap="butt">
+  <path id="sine-curve" d="M 77 797
+    C 253 883 369 757 513 550
+    C 640 370 762 177 916 133
+    C 1068 90 1180 187 1257 312"
+    stroke="url(#sine-wave)" />
+</g><g id="letter-G" fill="none" stroke-width="40" stroke-linecap="butt" stroke-linejoin="round">
+  <!-- Starts at y=523, stays separated from the sine wave and fades in below. -->
+  <path id="G-rounded-bowl" d="M 650 523
+    C 643 694 780 826 952 835
+    C 1167 846 1322 686 1315 485"
+    stroke="url(#g-bowl)" />
+  <path id="G-crossbar" d="M 964 485 L 1315 485" stroke="url(#g-crossbar)" stroke-width="35" />
+</g></g></svg>
